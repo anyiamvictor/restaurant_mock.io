@@ -1,0 +1,265 @@
+
+body, h1, h2, h3, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family:cursive, sans-serif;
+  background-color: #f8eded;
+  
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    background: url( '/src/img1_by_PrithivarajA.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: bottom;
+     @media  screen and (max-width: 1100px){
+        margin-top:0;
+ }
+}
+
+.menuContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px auto;
+    background-color: rgba(0, 0, 0, 0.447);
+    width:80%;
+    text-transform: capitalize;
+    flex-wrap:wrap;
+
+        @media  screen and (max-width: 1000px){        
+        flex-direction: column;
+        justify-content: center;
+            align-items: center;
+         flex-wrap:nowrap;
+        width:100%;
+    }
+        
+}
+.menuitem {
+    display:flex;
+    flex-direction: column;
+    height:400px;
+    justify-content: center;
+    align-items:center;
+    padding:16px;
+    gap:20px;
+    color:white;
+    margin:26px;
+    text-align: center;
+    border:2px solid rgb(129, 85, 2);
+
+        @media  screen and (max-width: 700px){  
+            width:300px      
+    }
+}
+
+#imagewrapper{
+    width:300px;
+    border:10px solid rgba(255, 255, 255, 0.486);
+    border-radius: 30%;
+    overflow: hidden;
+         @media  screen and (max-width: 700px){  
+            width:200px      
+    }
+}
+
+#imagewrapper img{
+    width:100%
+    
+}
+
+#menutitle{
+    color:rgb(248, 196, 100);
+         @media  screen and (max-width: 700px){  
+            font-size:large;      
+    }
+    
+}
+
+#menuingredients{
+          @media  screen and (max-width: 700px){  
+            font-size:smaller; 
+
+    }
+}
+.contact{
+    margin:100px auto;
+    padding:20px;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    background-color: rgba(0, 0, 0, 0.537);
+    text-align: justify;
+     @media  screen and (max-width: 600px){            
+            font-size:15px;
+            padding: 20px;
+
+        }
+
+        @media screen and (min-width: 601px) and (max-width: 1100px) {
+        font-size:30px;
+        padding:36px;
+
+
+           }
+}
+.title{
+    text-align: center;
+    text-shadow:0px 2px 130px rgb(245, 100, 3);
+    color:rgb(83, 3, 3);
+    font-size:50px;
+     @media  screen and (max-width: 1100px){
+    font-size:30px;
+     }
+    }
+
+
+.border{
+        border-top:10px solid rgba(125, 2, 2, 0.397);
+        border-top:10px solid rgba(125, 2, 2, 0.397);
+        border-radius: 30px;
+
+}
+
+.welcomemessage{
+    color:white;
+    background-color: rgba(63, 64, 64, 0.728);
+    width:80%;
+    border-radius: 10px;
+    text-shadow:0px 0px 90px rgba(157, 255, 0, 0.276);
+    text-align:center;
+    padding:8rem;
+    font-size: 40px;
+    margin:110px auto;
+        @media  screen and (max-width: 600px){            
+            text-align: justify;
+            font-size:15px;
+            padding: 35px;
+
+        }
+
+        @media screen and (min-width: 601px) and (max-width: 1100px) {
+        font-size:20px;
+        padding:36px;
+
+
+           }
+        
+    }
+    
+
+nav{
+    width:100%;
+    background-color: rgb(68, 4, 4);
+    display:flex;
+    justify-content: center;
+    padding:20px 0;
+    align-items:center;
+    gap:30px;
+
+    @media  screen and (max-width: 1100px){
+        flex-direction:column;
+        margin:0;
+        gap:10px;
+    }
+
+       
+}
+
+
+nav *{
+    color:white;
+    padding:10px;
+    font-size: large;
+    cursor:pointer;
+    @media  screen and (max-width: 1100px){
+        font-size: 10px;
+        padding:2px;
+        margin:0px;
+    }
+
+     @media screen and (min-width: 601px) and (max-width: 1100px) {
+            font-size:20px;
+        }
+}
+
+
+#content{
+margin:5rem auto;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height:100%;
+
+      @media  screen and (max-width: 600px){
+    align-items: center; 
+    justify-content: space-between;
+    
+    }
+ 
+}
+
+
+.footer{
+    background-color: rgba(44, 0, 0, 0.518);
+    text-align: center;
+    font-size: 20px;
+        padding:50px;
+    color:white;
+    
+
+     @media screen and (min-width: 601px) and (max-width: 1100px) {
+
+        font-size:14px;
+    }
+
+      @media  screen and (max-width: 600px){
+        font-size:15px;
+    }
+}
+
+.paragraph{
+
+    justify-self: center;
+}
+.active{
+    border-bottom:5px solid rgba(255, 217, 0, 0.582)
+}
+
+#aboutdiv{
+    border:1px solid rgba(0, 0, 0, 0.249);
+    padding:12px;
+    margin:10px auto;
+    cursor:pointer;
+    width:200px;
+}
+
+.clicked{
+    transition: all .1s ease-in-out;
+}
+
+
+
+#aboutid{
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.705);
+    color:white;
+    height:50vh;
+    text-transform: capitalize;
+
+        @media  screen and (min-width: 600px){
+        font-size:30px;;
+    }
+
+
+}
+
