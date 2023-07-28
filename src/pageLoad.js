@@ -94,7 +94,7 @@ function footer() {
     const paragraph = document.createElement('p');
     paragraph.classList.add('paragraph');
     aboutLink.id = 'aboutdiv';
-    paragraph.innerHTML = ` Created with ❤️ by anyiamvictor Copyright &copy ${new Date().getFullYear()}. For more details check the <div id='aboutdiv'>About Page</div> `;
+    paragraph.innerHTML = ` Created with ❤️ by <a href=https://github.com/anyiamvictor>AnyiamVictor</a> Copyright &copy ${new Date().getFullYear()}. For more details check the <div id='aboutdiv'>About Page</div> `;
     footer.classList.add('footer');
     footer.append(paragraph);
     return footer;

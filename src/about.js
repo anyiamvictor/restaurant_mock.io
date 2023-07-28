@@ -6,7 +6,7 @@ function createCredits(){
     
 
     creditsTitle.textContent = "credits";
-    credits.innerHTML = `Thanks to Unsplash.com for their open licence to use their images and to the following individuals whose images i used in this little project.<br><br>
+    credits.innerHTML = `Thanks to <a href=https://unsplash.com/>Unsplash</a>  for their open licence to use their images and to the following individuals whose images i used in this little project.<br><br>
     1.Prithivaraj A<br>
     2.anh nguyen<br>
     3.chad montano<br>

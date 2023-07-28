@@ -247,17 +247,22 @@ height:100%;
     transition: all .1s ease-in-out;
 }
 
-
+a{
+    color:yellow;
+    text-decoration: none;
+}
 
 #aboutid{
     text-align:center;
     background-color: rgba(0, 0, 0, 0.705);
     color:white;
-    height:50vh;
+    margin:20px;
+    padding:16px;
     text-transform: capitalize;
 
         @media  screen and (min-width: 600px){
-        font-size:30px;;
+        font-size:30px;
+        margin:10px;
     }
 
 
