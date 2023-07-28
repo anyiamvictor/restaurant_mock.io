@@ -14,7 +14,7 @@ body {
 main{
     display:flex;
     flex-direction: column;
-    background: url( '/dist/images/img1_by_PrithivarajA.jpg');
+    background: url( './img1_by_PrithivarajA.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: bottom;
