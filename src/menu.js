@@ -31,12 +31,12 @@ function loadMenu() {
     contentContainer.textContent = '';    
     let menuContainer = document.createElement('div');    
     menuContainer.classList.add('menuContainer');
-    menuContainer.append(createMenuItem('Egusi Soup', ['images/', 'oil', 'meat'], './egusi.jpeg'));
-    menuContainer.append(createMenuItem('Afang Soup', ['Vegetable', 'meat', 'rice'], './afang.jpeg'));
+    menuContainer.append(createMenuItem('Egusi Soup', ['melon', 'oil', 'meat'], './egusi.jpeg'));
+    menuContainer.append(createMenuItem('Afang Soup', ['Vegetable', 'meat', 'red oil', 'salt', 'etc'], './afang.jpeg'));
     menuContainer.append(createMenuItem(' Pizza', ['Vegetable', 'white looking stuf', 'tomato', 'etc'], './img4_chad-montano.jpg'));
     menuContainer.append(createMenuItem('Vegetable Salad ', ['Vegetable', 'more Vegetables', 'some juice'], './img5_eiliv-aceron.jpg'));
     menuContainer.append(createMenuItem('Vegetable Salad ', ['egg', ' Vegetables','tomatos','peas', 'some greens'], './img3_anh-nguyen.jpg'));
-    menuContainer.append(createMenuItem(' desert ', ['something', ' veggies','tomatos','ketchup', ' greens'], './img2_jay-wennington-N.jpg'));
+    menuContainer.append(createMenuItem(' desert ', ['something brownish', ' veggies','tomatos','ketchup', ' greens'], './img2_jay-wennington-N.jpg'));
 
     contentContainer.append(menuContainer)
     return contentContainer;
