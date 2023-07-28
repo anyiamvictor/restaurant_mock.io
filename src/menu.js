@@ -31,12 +31,12 @@ function loadMenu() {
     contentContainer.textContent = '';    
     let menuContainer = document.createElement('div');    
     menuContainer.classList.add('menuContainer');
-    menuContainer.append(createMenuItem('Egusi Soup', ['egusi', 'oil', 'meat'], '/src/egusi.jpeg'));
-    menuContainer.append(createMenuItem('Afang Soup', ['Vegetable', 'meat', 'rice'], '/src/afang.jpeg'));
-    menuContainer.append(createMenuItem(' Pizza', ['Vegetable', 'white looking stuf', 'tomato', 'etc'], '/src/img4_chad-montano.jpg'));
-    menuContainer.append(createMenuItem('Vegetable Salad ', ['Vegetable', 'more Vegetables', 'some juice'], '/src/img5_eiliv-aceron.jpg'));
-    menuContainer.append(createMenuItem('Vegetable Salad ', ['egg', ' Vegetables','tomatos','peas', 'some greens'], '/src/img3_anh-nguyen.jpg'));
-    menuContainer.append(createMenuItem(' desert ', ['something', ' veggies','tomatos','ketchup', ' greens'], '/src/img2_jay-wennington-N.jpg'));
+    menuContainer.append(createMenuItem('Egusi Soup', ['egusi', 'oil', 'meat'], '/dist/egusi.jpeg'));
+    menuContainer.append(createMenuItem('Afang Soup', ['Vegetable', 'meat', 'rice'], '/dist/afang.jpeg'));
+    menuContainer.append(createMenuItem(' Pizza', ['Vegetable', 'white looking stuf', 'tomato', 'etc'], '/dist/img4_chad-montano.jpg'));
+    menuContainer.append(createMenuItem('Vegetable Salad ', ['Vegetable', 'more Vegetables', 'some juice'], '/dist/img5_eiliv-aceron.jpg'));
+    menuContainer.append(createMenuItem('Vegetable Salad ', ['egg', ' Vegetables','tomatos','peas', 'some greens'], '/dist/img3_anh-nguyen.jpg'));
+    menuContainer.append(createMenuItem(' desert ', ['something', ' veggies','tomatos','ketchup', ' greens'], '/dist/img2_jay-wennington-N.jpg'));
 
     contentContainer.append(menuContainer)
     return contentContainer;
